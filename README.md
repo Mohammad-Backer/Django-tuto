@@ -1,5 +1,10 @@
 # Django-app
 
+This tutorial is a direct application of the tutorial in the django official site:
+[Django Tutorial](https://docs.djangoproject.com/en/3.2/intro/tutorial01/)
+Everything here is a summary of what can be found there, and what I deemed to be important and I added my own understanding
+to it.
+
 # Setup
 
 1. $python -m django --version : To check wich version of Django is installed.
@@ -131,3 +136,6 @@ To get from a URL to a view, Django uses what are known as ‘URLconfs’. A URL
         The context_object_name attribute is used to speicfy the name of the context variable used in the templates.
 
 # Automated testing
+
+[Everything useful is here!](https://docs.djangoproject.com/en/3.2/intro/tutorial05/)
+
