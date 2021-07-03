@@ -139,3 +139,13 @@ To get from a URL to a view, Django uses what are known as ‘URLconfs’. A URL
 
 [Everything useful is here!](https://docs.djangoproject.com/en/3.2/intro/tutorial05/)
 
+# Static files
+
+To add them to the django project, we should create a static directory in our app directory. We then create a polls directory and inside
+we create our css file.
+Then we load them in the templates by writing the following in the template file:
+    
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
